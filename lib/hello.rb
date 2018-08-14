@@ -4,6 +4,7 @@ def hello_t(array)
   if block_given?
   yield array[i]
   i+=1
+end
  end 
  array
 end
